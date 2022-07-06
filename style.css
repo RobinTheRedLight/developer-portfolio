@@ -12,7 +12,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flexi {
     display: flex;
 }
 
@@ -43,4 +43,31 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.bs {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.bi3 {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#lorem1 {
+    border-left: 5px solid blue;
+}
+
+#lorem2 {
+    border-left: 5px solid tomato;
+}
+
+footer {
+    text-align: center;
 }
