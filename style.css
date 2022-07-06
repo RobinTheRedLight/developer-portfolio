@@ -1,5 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 {
@@ -12,11 +14,11 @@ h1 {
 
 section {
     display: flex;
-    padding: 5%;
 }
 
 .width {
     width: 50%;
+    padding-left: 2%;
 }
 
 .width img {
@@ -30,4 +32,15 @@ section {
     padding: 10px 40px;
     border-radius: 5px;
     font-weight: 700;
+}
+
+.bi {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.bi2 {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
